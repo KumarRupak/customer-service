@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class Home {
 
-    @GetMapping
+    @GetMapping("/")
     fun home():String{
         return "----------------------------Customer Service-----------------------------------"
     }
