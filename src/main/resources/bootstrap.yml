@@ -1,0 +1,6 @@
+
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://wscconfig-env.eba-h7nkdgdf.us-east-2.elasticbeanstalk.com/
